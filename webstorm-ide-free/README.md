@@ -8,8 +8,9 @@
 [IntelliJ IDEA注册码补丁下载链接](http://idea.lanyus.com/  "IntelliJ IDEA注册码补丁下载链接")
 
 1. 下载注册码补丁文件
-
+![下载补丁文件](https://raw.githubusercontent.com/sharehooowin/utils/master/webstorm-ide-free/img/1.jpg "下载补丁文件")
 2. 找到C:\Windows\System32\drivers\etc 路径下的 hosts文件
+![找到hosts文件](https://raw.githubusercontent.com/sharehooowin/utils/master/webstorm-ide-free/img/2.jpg)
 
 3. 在C:\Windows\System32\drivers\etc\hosts 文件的末尾加入
 ```
@@ -17,6 +18,7 @@
 0.0.0.0 account.jetbrains.com
 0.0.0.0 www.jetbrains.com
 ```
+![在末尾添加代码](https://raw.githubusercontent.com/sharehooowin/utils/master/webstorm-ide-free/img/3.jpg)
 
 4. 找到你webstorm的安装目录下的bin文件夹，将下载好的补丁文件如知道改文件夹下。
  将下载的补丁文件路径按如下格式添加到bin文件夹下的```webstorm.exe.vmoptions```和```webstorm64.exe.vmoptions```文件的第一行。
@@ -24,6 +26,10 @@
 -javaagent:E:\IDE\webstorm\WebStorm 2017.3.5\bin\JetbrainsIdesCrack-4.2-release-sha1-3323d5d0b82e716609808090d3dc7cb3198b8c4b.jar
 ```
 (注意替换 ```-javaagent:``` 后的文件路径)
+
+![找到安装目录下的bin文件夹](https://raw.githubusercontent.com/sharehooowin/utils/master/webstorm-ide-free/img/4-1.jpg)
+![](https://raw.githubusercontent.com/sharehooowin/utils/master/webstorm-ide-free/img/4-2.jpg)
+![](https://raw.githubusercontent.com/sharehooowin/utils/master/webstorm-ide-free/img/4-3.jpg)
 
 5.  完成上面修改之后，重新打开webstorm。
 
@@ -33,3 +39,8 @@
 在下方填入```-javaagent:E:\IDE\webstorm\WebStorm 2017.3.5\bin\JetbrainsIdesCrack-4.2-release-sha1-3323d5d0b82e716609808090d3dc7cb3198b8c4b.jar```
 如果下方出现了```Key is invalid```
 关闭之后重新执行第五步操作。可能要多试几次。
+![这样填，不行的话记得关掉多试几次哈](https://raw.githubusercontent.com/sharehooowin/utils/master/webstorm-ide-free/img/5.jpg)
+![好！成功啦！！！](https://raw.githubusercontent.com/sharehooowin/utils/master/webstorm-ide-free/img/5-1.jpg)
+
+
+好了，完事了。可以愉快地玩耍了。
